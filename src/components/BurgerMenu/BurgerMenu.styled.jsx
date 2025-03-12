@@ -20,6 +20,7 @@ export const CrossWrapper = styled.div`
 export const MainWrapper = styled(motion.div)`
   z-index: 10;
   width: 100%;
+  height: 100%;
   max-width: 375px;
   position: absolute;
   right: 0;
@@ -29,6 +30,7 @@ export const MainWrapper = styled(motion.div)`
   flex-direction: column;
   gap: 36px;
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
 `;
 
 export const ButtonsWrapper = styled.div`
