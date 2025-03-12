@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import Header from "./components/Header/Header";
 import { ThemeProvider } from "styled-components";
 
@@ -19,8 +17,6 @@ import ScrollToTopButton from "./components/ScrollToTopButton/ScrollToTopButton"
 import { Container } from "./App.styled";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
       <ThemeProvider theme={theme}>
